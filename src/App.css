@@ -10,8 +10,23 @@ div.main-content {
 }
 
 img.product-thumbnail {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: auto;
+}
+
+div.product-grid-item {
+  padding: 5px;
+}
+
+img.product-grid-preview {
+  width: 100%;
+  height: auto;
+}
+
+div.product-grid-item, div.product-list-item {
+  background-color: #E7E6EF;
+  color: #3c3b42;
+  cursor: pointer;
 }
 
 div.product-list-item {
@@ -19,19 +34,26 @@ div.product-list-item {
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 5px;
-  background-color: rgb(221, 220, 231);
+  font-size: 1.25rem;
 }
 
 div.product-list-item span.product-name {
   padding-left: 10px;
-  color: black;
+  font-size: 1.25rem;
 }
 
 div.product-list-item > span.product-price {
   float: right;
-  margin-top: 13px;
+  margin-top: 38px;
   margin-right: 10px;
   font-style: italic;
-  color: black;
+}
+
+div.list-toggle {
+  margin: 0 30px 20px;
+}
+
+a.product-link {
+  color: #3c3b42;
 }
 
